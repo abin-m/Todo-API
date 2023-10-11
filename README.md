@@ -17,7 +17,6 @@ A REST API with the following Methods GET,POST and DELETE.
 
 3. Navigate to your Django project directory (walterproject):
 
-         ```
           cd /change/to/your/path/walterproject
     
 4. Run the Django development server:
@@ -27,7 +26,7 @@ A REST API with the following Methods GET,POST and DELETE.
 
 ## API Documentation
 
-## Authentication - Obtain an Authentication Token
+### Authentication - Obtain an Authentication Token
 
 ### Request
 
