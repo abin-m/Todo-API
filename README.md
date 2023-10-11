@@ -12,27 +12,29 @@ A REST API with the following Methods GET,POST and DELETE.
    
 2. Install Django and Django REST framework:
 
-    ```shell
-    pip install django djangorestframework
+         ```shell
+          pip install django djangorestframework
 
 3. Navigate to your Django project directory (walterproject):
-   
-    ```shell
-    cd /change/to/your/path/walterproject
+
+         ```shell
+          cd /change/to/your/path/walterproject
     
-4. Run the Django development server:
-    ```shell
-    python manage.py runserver
+5. Run the Django development server:
+   ```
+   python manage.py runserver
 
 ## API Documentation
 
 ## Authentication - Obtain an Authentication Token
 
 ### Request
+
 - **Method:** POST
 - **URL:** `http://localhost:8000/api-token-auth/`
 - **Headers:** No specific headers are required.
 - **Body:**
+  
   ```json
   {
       "username": "your_username",
