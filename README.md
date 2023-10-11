@@ -6,21 +6,22 @@ A REST API with the following Methods GET,POST and DELETE.
 
 1. Create Virtualenv and Activate it:
 
-   ```shell
+   ```
    python -m venv venv
    venv\Scripts\activate
    
 2. Install Django and Django REST framework:
 
-         ```shell
+         ```
           pip install django djangorestframework
 
 3. Navigate to your Django project directory (walterproject):
 
-         ```shell
+         ```
           cd /change/to/your/path/walterproject
     
-5. Run the Django development server:
+4. Run the Django development server:
+   
    ```
    python manage.py runserver
 
@@ -34,8 +35,8 @@ A REST API with the following Methods GET,POST and DELETE.
 - **URL:** `http://localhost:8000/api-token-auth/`
 - **Headers:** No specific headers are required.
 - **Body:**
-  
-  ```json
+
+  ```
   {
       "username": "your_username",
       "password": "your_password"
@@ -43,7 +44,7 @@ A REST API with the following Methods GET,POST and DELETE.
 
 
 ### Response
-      ```shell
+   
     Status Code: 200 OK
     Response Body:
     {
@@ -54,7 +55,7 @@ A REST API with the following Methods GET,POST and DELETE.
 
 ## GET Method - Retrieve Tasks
 
-    ```shell
+    
         Request
         Method: GET
         URL: http://localhost:8000/api/tasks/
@@ -64,9 +65,10 @@ A REST API with the following Methods GET,POST and DELETE.
         Response
         Status Code: 200 OK
         Response Body: A JSON array containing the list of tasks.
+        
 ## POST Method - Create a Task
 
-    ```shell
+    
         Request
         Method: POST
         URL: http://localhost:8000/api/tasks/
@@ -79,9 +81,10 @@ A REST API with the following Methods GET,POST and DELETE.
             "description": "Description of the new task",
             "completed": false
         }
+        
 ## DELETE Method - Delete a Task
 
-    ```shell
+    
         Request
         Method: DELETE
         URL: http://localhost:8000/api/tasks/<task_id>/
