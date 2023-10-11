@@ -6,13 +6,13 @@ A REST API with the following Methods GET,POST and DELETE.
 
 1. Create Virtualenv and Activate it:
 
-   ```
-   python -m venv venv
-   venv\Scripts\activate
+   
+         python -m venv venv
+         venv\Scripts\activate
    
 2. Install Django and Django REST framework:
 
-         ```
+         
           pip install django djangorestframework
 
 3. Navigate to your Django project directory (walterproject):
